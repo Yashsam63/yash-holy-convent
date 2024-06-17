@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(images.jpeg);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #01416f;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    
+}
+nav img{
+    height:125px;
+    width:125px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-size:25px;
+    font-weight:bolder;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.9rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    align-items:center;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;}
+    
+#strip{
+    margin-top: 15px;
+    height:40px ;
+    width:100%;
+    background-color: #01416f; 
+}
+#strip-text{
+    color:white;
+    font-weight : bold;
+    font-size : 1.8rem;
+    text-align: center;
+}
+ 
+#school{
+    margin-top: 20px;
+}
+#school img{
+    height:500px;
+    width:100%;
+}
+#strip2{
+    margin-top: 15px;
+    height:40px ;
+    width:100%;
+    background-color: #01416f; 
+}
+#strip-text2{
+    color:white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+}
+#event{
+   font-size: 1.3rem;
+   display: block;
+   border: 2px solid brown;
+   border-radius: 28px;
+   background: #f2f2f2;
+   margin:20px;
+   padding:30px;
+   width:50%;
+}
+#event img{
+    height:250px;
+    width:400px;
+    padding:15px;
+    border-radius: 10px;
+    display:block;
+    margin:auto
+}
+#event2{
+    font-size: 1.3rem;
+    display: block;
+    border: 2px solid brown;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin:20px;
+    padding:30px;
+    width:50%;
+ }
+ #event2 img{
+    height:250px;
+    width:400px;
+    padding:15px;
+    border-radius: 10px;
+    display:block;
+    margin:auto
+}
+#event h2 {
+    text-align: center;
+    color:white;
+    background-color: #01416f;
+    border-radius: 25px;
+}
+#event2 h2 {
+    text-align: center;
+    color:white;
+    background-color: #01416f;
+    border-radius: 25px;
+}
+
+ #event0{
+    display:flex;
+ }
+ 
+
+
+
+
+
+
+
+
